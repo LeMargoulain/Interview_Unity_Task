@@ -14,12 +14,12 @@ To interact with the scene, you can either click on the cube to change its color
 
 This unity project contains the three scripts as follow:
 
-#### *ChangeColor*
+#### *ChangeColorOnClick*
 
 On click, change the color of the game object this script was given to and to another object given as parameter.<br>
 In this scene, the script was applied to the cube with the sphere as a parameter.
 
-#### *MooveOnClick*
+#### *MoveOnClick*
 
 Moove the location of the object this script was given to to the location clicked. In order for it to work, make sure the object is a NavMeshAgent and the location is on a NavMesh.
 In this scene, the script was applied to the cube (NavMeshAgent) and it can moove on the plane (NavMesh).
