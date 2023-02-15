@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 //This script allow a game object to moove to the clicked point
-public class MooveOnClick : MonoBehaviour
+public class MoveOnClick : MonoBehaviour
 {
     private UnityEngine.AI.NavMeshAgent agent;
     void Start()

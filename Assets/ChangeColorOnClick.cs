@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 //This script change the color of the game object it is put on, as well as the gameobject in parameter.
-public class ChangeColor : MonoBehaviour
+public class ChangeColorOnClick : MonoBehaviour
 {
     public GameObject objectToChange;
     private Renderer cubeRenderer;
